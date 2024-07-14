@@ -1,0 +1,54 @@
+.w-30{
+    width: 30%;
+}
+.w-25{
+    width: 25%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/* .sidebar Styles */
+.sidebar{
+    position: fixed;
+    top: 0;
+   left: -255px;
+}
+.sidebar .sidebar-toggler {
+    color: black;
+}
+.menuIcon ,.closeIcon{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sidebar-menu .menu li {
+    font-size: 18px;
+    list-style: none;
+    margin: 15px 0 ;
+    cursor: pointer;
+
+}
+
+/* .end of sidebar Styles */
+
+/* .search section Styles */
+
+
+.search input{
+    background: transparent;
+    color: white;
+}
+.search input::placeholder{
+    color: rgb(206, 206, 206);
+}
+
+.item{
+    cursor: pointer;
+}
+
+.loading-screen{
+    z-index: 999;
+}
